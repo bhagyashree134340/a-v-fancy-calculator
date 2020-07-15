@@ -1,0 +1,264 @@
+body
+{
+    background-color: rgba(221, 160, 221, 0.5);
+}
+
+.container
+{
+    width: 340px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+.display
+{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.reset
+{
+    position: absolute;
+    left: 17px;
+    top: 75px;
+    height: 30px;
+    width: 215px;
+    text-align: center;
+}
+
+.numerals
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 10px;
+    top: 5px;
+}
+
+.cont-numerals
+{
+    position: relative;
+    width: 215px;
+    height: 270px;
+    top: 80px;
+    left: 15px;
+}
+
+.three, .six, .nine
+{
+    margin-left: 150px;
+}
+
+.four, .five, .six
+{
+    top: 75px;
+}
+
+.two, .five, .eight
+{
+    margin-left: 80px;
+}
+
+.seven, .eight, .nine
+{
+    margin-top: 140px;
+}
+
+.zero
+{
+    top: 215px;
+    left: 70px;
+}
+
+.decimal
+{
+    top: 215px;
+}
+
+.cont-operator
+{
+    position: relative;
+    width: 80px;
+    height: 270px;
+    top: -192px;
+    left: 246px;
+ }
+
+ .operator
+ {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    left: 20px;
+ }
+
+ .plus
+ {
+    top: 8px;
+}
+
+.minus
+{
+    top: 60px;
+}
+
+.mult
+{
+    top: 111px;
+}
+
+.div
+{
+    top: 163px;
+}
+
+.equals
+{
+    top: 215px;
+}
+
+.big
+{
+    border: 4px solid rgba(147, 112, 216, 0.5);
+    border-radius: 10px;
+    box-shadow: rgba(200,200,200,0.7) 0px 3px 3px 3px;
+    background-color: rgba(200,200,200,0.5);
+}
+
+.edge-container
+{
+    border: 2px solid rgba(147, 112, 216, 0.5);
+    border-radius: 10px;
+    box-shadow: rgba(200,200,200,0.7) 0px 3px 3px 2px;
+}
+
+button
+{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: purple;
+    border: 2px solid rgba(147, 112, 216, 0.5);
+    
+}
+
+button:active
+{
+    background-color: rgba(221, 160, 221, 0.3);
+    transform: rotate(10deg);
+}
+
+.de-reset:active
+{
+    background-color:rgba(162, 213, 233, 0.5);
+    transform: none;
+}
+
+.screen
+{
+    border-radius: 10px;
+    border: 2px solid rgba(147, 112, 216, 0.5);
+    font-size: 30px;
+}
+
+.design:active
+{
+    background-color: rgba(162, 213, 233, 0.5);
+}
+
+.clock
+{
+    position: absolute;
+    top: 75px;
+    height: 30px;
+    text-align: center;
+    left: 246px;
+}
+
+.clock:active
+{
+    background-color:rgba(162, 213, 233, 0.5);
+    transform: none;
+}
+
+.clk-menu
+{
+    top: 0px;
+    position: absolute;
+    height: 450px;
+    width: 340px;
+    transition: top 2s ease-in-out 0s;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: 450px;
+    width: 340px;
+    background-color: rgba(221, 160, 221, 0.2);
+    position: relative;
+    margin: 0;
+    z-index: 1000;
+    border-radius: 10px;
+    border: 2px solid rgba(147, 112, 216, 0.5);
+}
+
+.clockMenu
+{
+    top: -452px;
+}
+
+.closeMenu
+{
+    top: +450px;
+}
+
+.header-menu
+{
+    padding: 10px 20px 10px 20px;
+    background: rgb(128, 0, 128, 0.3);
+}
+
+.btn-menu
+{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    color: black;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.text
+{
+    background-color: rgba(221, 160, 221, 0.5);
+    font-weight: bold;
+    color: indigo;
+    padding-left: 130px;
+    text-
+}
+
+.cont-menu-sup
+{
+    height: 450px;
+    width: 340px;
+    margin: 0;
+    padding: 0;
+}
+
+.cont-menu-inf
+{
+    width: 340px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <script type = "text/javascript" src = "calculator.js"></script>
+        <link rel = "stylesheet" href = "calculator.css">
+        <link href="idk.html" rel="import"  id = "link"/>
+
+    </head>
+    <body>
+        <div class="container big">
+            
+            
+            <div id = "clk-menu" class = "clk-menu">
+
+                <div class = "cont-menu-sup">
+
+                </div>
+
+                <div class="cont-menu-inf">
+                    <div class= "menu">
+                        <div class="header-menu">
+                            <button onclick="closeMenu()" class="btn-menu">x</button>
+                            <p class="menu-title">clock</p>
+                        </div>
+    
+                        <div class = "text">
+                            <table>
+                                <tr>
+                                    <td id = hrs></td>
+                                    <td>:</td>
+                                    <td id = mins></td>
+                                    <td>:</td>
+                                    <td id = secs></td>
+                                </tr>
+                                <tr>
+                                    <td colspan = 5 class = bottom>
+                                        <span id = day></span>
+                                        <span id = month></span>
+                                        <span id = date></span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input id = "display" class = "display screen" value = " " disabled>
+            <button id = "reset" class = "reset de-reset" onclick = "reset()">C</button>
+            <button id = "clock" class = "clock" onclick = "clockMenu()">clock</button>
+            <br>
+            <br>
+
+            <div class = "cont-numerals edge-container">
+                <button id = "one" class = "numerals one" onclick = "add('1')">1</button>
+                <button id = "two" class = "numerals two" onclick = "add('2')">2</button>
+                <button id = "three" class = "numerals three" onclick = "add('3')">3</button>
+                <button id = "four" class = "numerals four" onclick = "add('4')">4</button>
+                <button id = "five" class = "numerals five" onclick = "add('5')">5</button>
+                <button id = "six" class = "numerals six" onclick = "add('6')">6</button>
+                <button id = "seven" class = "numerals seven" onclick = "add('7')">7</button>
+                <button id = "eight" class = "numerals eight" onclick = "add('8')">8</button>
+                <button id = "nine" class = "numerals nine" onclick = "add('9')">9</button>
+                <button id = "zero" class = "numerals zero" onclick = "add('0')">0</button>
+                <button id = "decimal" class = "numerals decimal" onclick = "add('.')">.</button>
+                <!-- <button id = "delete" class = "numerals delete" onclick = "delet()">delete</button> -->
+
+            </div>
+
+            <div class = "cont-operator edge-container">
+                <button id = "plus" class = "design operator plus" onclick = "add('+')">+</button>
+                <button id = "minus" class = "design operator minus" onclick = "add('-')">-</button>
+                <button id = "mult" class = "design operator mult" onclick = "add('*')">*</button>
+                <button id = "div" class = "design operator div" onclick = "add('/')">/</button>
+                <button id = "equals" class = "design operator dequals equals" onclick = "resultado()">=</button>
+            </div>
+        </div>
+    </body>
+</html>
